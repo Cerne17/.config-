@@ -158,7 +158,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # assign [class="org.mozilla.firefox"] $ws6
 assign [class="org.mozilla.firefox"] $ws7
-assign [class="Gnome-terminal"] $ws8
+# assign [class="Gnome-terminal"] $ws8
 assign [class="Spotify"] $ws9
 assign [class="discord"] $ws10
 
