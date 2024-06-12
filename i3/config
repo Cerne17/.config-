@@ -232,3 +232,25 @@ exec_always feh --bg-scale ~/Pictures/wallpaper-millie.jpg
 
 # Setting the monitors configs
 exec_always xrandr --output DP-1 --off --output HDMI-1 --mode 1360x768 --pos 0x0 --rotate normal --output DP-2 --primary --mode 1920x1080 --pos 1360x0 --rotate normal --output DP-3 --off
+
+#########################################################
+########## Changing Workspaces between screens ##########
+#########################################################
+
+bindsym $mod+Shift+greater move workspace to output right
+bindsym $mod+Shift+less move workspace to output left
+
+#########################################################
+########## Changing Workspaces between screens ##########
+#########################################################
+
+#########################################################
+########## Changing Containers between screens ##########
+#########################################################
+
+bindsym $mod+bracketright move container to output right
+bindsym $mod+bracketleft move container to output left
+
+#########################################################
+########## Changing Containers between screens ##########
+#########################################################
